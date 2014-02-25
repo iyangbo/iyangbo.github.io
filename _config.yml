@@ -71,6 +71,8 @@ github_skip_forks: true
 #weibo_share
 weibo_share: true
 
+default_asides: [custom/asides/about.html]
+
 # Twitter
 ##twitter_user:
 #twitter_tweet_button: true
