@@ -4,7 +4,7 @@
   <title><![CDATA[iyangbo]]></title>
   <link href="http://iyangbo.github.io/atom.xml" rel="self"/>
   <link href="http://iyangbo.github.io/"/>
-  <updated>2014-02-25T21:04:11+08:00</updated>
+  <updated>2014-03-04T20:47:01+08:00</updated>
   <id>http://iyangbo.github.io/</id>
   <author>
     <name><![CDATA[yangbo]]></name>
@@ -12,41 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[第一篇博文测试用]]></title>
-    <link href="http://iyangbo.github.io/blog/2014/02/25/di-%5B%3F%5D-pian-bo-wen-ce-shi-yong/"/>
-    <updated>2014-02-25T09:49:53+08:00</updated>
-    <id>http://iyangbo.github.io/blog/2014/02/25/di-[?]-pian-bo-wen-ce-shi-yong</id>
-    <content type="html"><![CDATA[<!--mfenjfeo-->
-
-
-<!--moreda-->
-
-
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>int i = 0;</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<blockquote><p>sasas万千瓦我去</p></blockquote>
-
-
-<p><img class="/Users/yangbo/Desktop/Custom" src="Project/ChangeSound/Icon-72.png">
-<a href="http://">http://</a>
-<a href="http.baidu.com">wode</a></p>
-
-<h1>1</h1>
-
-<h2>1</h2>
-
-<h3>1</h3>
-
-<p><em>是你的吉安</em></p>
-]]></content>
-  </entry>
   
 </feed>
