@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>nil,Nil,NULL,NSNull的区别 - iyangbo</title>
+  <title>新浪微博分享error:redirect_uri_mismatch错误处理 - iyangbo</title>
   <meta name="author" content="yangbo">
 
   
-  <meta name="description" content="1. nil nil指objective-C中对象的空指针; 什么是对象 对象是类的一个实例，是一个具体的事物. NSString *str = nil; //str是类NSString的实例 2.Nil Nil指的是objective-C类的空指针; 1
-Class aClass = Nil &hellip;">
+  <meta name="description" content="做微博分享功能时候出现redirect_uri_mismatch错误，需要在微博开放平台上设置安全域名和授权回调页网址. 1.设置安全域名
+默认设置成whalecloud.com 2.设置授权回调页网址
+默认设置成http://sns.vhalecloud.com/sina2/callback 3 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@ Class aClass = Nil &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://iyangbo.github.io/blog/2014/03/04/ioshou-tai-xiang-jie">
+  <link rel="canonical" href="http://iyangbo.github.io/blog/2014/03/12/xin-lang-wei-bo-fen-xiang-error-redirect-uri-mismatchcuo-wu-chu-li">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="iyangbo" type="application/atom+xml">
@@ -69,7 +70,7 @@ Class aClass = Nil &hellip;">
   
   <header>
     
-      <h1 class="entry-title">nil,Nil,NULL,NSNull的区别</h1>
+      <h1 class="entry-title">新浪微博分享error:redirect_uri_mismatch错误处理</h1>
     
     
       <p class="meta">
@@ -85,41 +86,25 @@ Class aClass = Nil &hellip;">
   
 
 
-<time datetime="2014-03-04T23:51:01+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
+<time datetime="2014-03-12T21:22:40+08:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><h1>1. nil</h1>
+<div class="entry-content"><p>做微博分享功能时候出现<code>redirect_uri_mismatch</code>错误，需要在微博开放平台上设置安全域名和授权回调页网址.</p>
 
-<p> nil指objective-C中对象的空指针;
- <blockquote><p><em>什么是对象</em><br/> 对象是类的一个实例，是一个具体的事物.</p></blockquote></p>
+<p>1.设置安全域名
+默认设置成<code>whalecloud.com</code>
+<img src="/images/2014-03-12-1.png"></p>
 
-<p> <code>
- NSString *str = nil; //str是类NSString的实例
-</code></p>
+<p>2.设置授权回调页网址
+默认设置成<code>http://sns.vhalecloud.com/sina2/callback</code>
+<img src="/images/2014-03-12-2.png"></p>
 
-<h1>2.Nil</h1>
-
-<p>Nil指的是objective-C类的空指针;</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Class aClass = Nil; //aClass是一个类的指针</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>3.NULL</h1>
-
-<p>NULL表示集合对象中空值的对象；所有C/C++的指针都可以赋值为NULL;</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>int *point = NULL;</span></code></pre></td></tr></table></div></figure>
-
-
-<h1>4. NSNull</h1>
-
-<p>NSNull是个单例，是一个Objective-C对象，通常用于占位符,放在数组中可以用来区分其他元素.</p>
+<p>3.设置测试账户(未通过审核的应用只有测试账户才能使用分享功能)
+<img src="/images/2014-03-12-3.png"></p>
 </div>
 
 
@@ -142,7 +127,7 @@ Class aClass = Nil &hellip;">
   
 
 
-<time datetime="2014-03-04T23:51:01+08:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
+<time datetime="2014-03-12T21:22:40+08:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
       
 
 
@@ -176,8 +161,8 @@ Class aClass = Nil &hellip;">
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/03/04/ioshou-tai-xiang-jie/" title="Previous Post: nil,Nil,NULL,NSNull的区别">&laquo; nil,Nil,NULL,NSNull的区别</a>
       
-        <a class="basic-alignment right" href="/blog/2014/03/12/xin-lang-wei-bo-fen-xiang-error-redirect-uri-mismatchcuo-wu-chu-li/" title="Next Post: 新浪微博分享error:redirect_uri_mismatch错误处理">新浪微博分享error:redirect_uri_mismatch错误处理 &raquo;</a>
       
     </p>
   </footer>

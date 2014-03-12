@@ -4,7 +4,7 @@
   <title><![CDATA[iyangbo]]></title>
   <link href="http://iyangbo.github.io/atom.xml" rel="self"/>
   <link href="http://iyangbo.github.io/"/>
-  <updated>2014-03-05T23:36:08+08:00</updated>
+  <updated>2014-03-12T21:41:21+08:00</updated>
   <id>http://iyangbo.github.io/</id>
   <author>
     <name><![CDATA[yangbo]]></name>
@@ -12,6 +12,26 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[新浪微博分享error:redirect_uri_mismatch错误处理]]></title>
+    <link href="http://iyangbo.github.io/blog/2014/03/12/xin-lang-wei-bo-fen-xiang-error-redirect-uri-mismatchcuo-wu-chu-li/"/>
+    <updated>2014-03-12T21:22:40+08:00</updated>
+    <id>http://iyangbo.github.io/blog/2014/03/12/xin-lang-wei-bo-fen-xiang-error-redirect-uri-mismatchcuo-wu-chu-li</id>
+    <content type="html"><![CDATA[<p>做微博分享功能时候出现<code>redirect_uri_mismatch</code>错误，需要在微博开放平台上设置安全域名和授权回调页网址.</p>
+
+<p>1.设置安全域名
+默认设置成<code>whalecloud.com</code>
+<img src="/images/2014-03-12-1.png"></p>
+
+<p>2.设置授权回调页网址
+默认设置成<code>http://sns.vhalecloud.com/sina2/callback</code>
+<img src="/images/2014-03-12-2.png"></p>
+
+<p>3.设置测试账户(未通过审核的应用只有测试账户才能使用分享功能)
+<img src="/images/2014-03-12-3.png"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[nil,Nil,NULL,NSNull的区别]]></title>
